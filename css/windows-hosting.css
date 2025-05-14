@@ -1,0 +1,106 @@
+/* Hero Section Styles */
+.hero-section {
+    padding: 100px 0;
+    background: linear-gradient(135deg, #0078d4 0%, #00a2ed 100%);
+}
+
+.hero-section img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Features Section Styles */
+.feature-card {
+    padding: 2rem;
+    text-align: center;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.feature-card:hover {
+    transform: translateY(-5px);
+}
+
+.feature-icon {
+    font-size: 2.5rem;
+    color: #0078d4;
+    margin-bottom: 1.5rem;
+}
+
+/* Pricing Section Styles */
+.pricing-card {
+    background: #fff;
+    border-radius: 15px;
+    padding: 2rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.pricing-card:hover {
+    transform: translateY(-5px);
+}
+
+.pricing-card.featured {
+    border: 2px solid #0078d4;
+    position: relative;
+}
+
+.pricing-header {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.price {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #0078d4;
+}
+
+.currency {
+    font-size: 1.5rem;
+    vertical-align: super;
+}
+
+.period {
+    font-size: 1rem;
+    color: #666;
+}
+
+.pricing-features ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 2rem 0;
+}
+
+.pricing-features li {
+    padding: 0.5rem 0;
+    color: #666;
+}
+
+.pricing-features i {
+    color: #0078d4;
+    margin-right: 0.5rem;
+}
+
+.pricing-footer {
+    text-align: center;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .hero-section {
+        padding: 50px 0;
+    }
+    
+    .pricing-card {
+        margin-bottom: 2rem;
+    }
+}
+
+
+/* Navigation Adjustments */
+.hero-section {
+    margin-top: 76px; /* Adjust based on your navbar height */
+}
